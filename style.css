@@ -85,3 +85,18 @@ body {
   border: 4px solid black;
   border-radius: 50%;
 }
+
+/* @media (min-width: 583px) {
+  
+} */
+
+@media (min-width: 901px) {
+  .main-content {
+    display: flex;
+
+  }
+
+  .squares-container {
+    transform: rotate(315deg) translateY(82px) translateX(64px);
+  }
+}
