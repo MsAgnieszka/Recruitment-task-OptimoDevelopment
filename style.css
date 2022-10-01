@@ -8,12 +8,12 @@ body {
   width: 100vw;
   height: 100vh;
   font-size: 62.5%;
+  font-family: sans-serif;
 }
 
 .navbar,
 .main-content {
   width: 100%;
-  border: 4px solid black;
 }
 
 .navbar {
@@ -41,7 +41,6 @@ body {
   height: 100px;
   width: 100px;
   background-color: #FF0000;
-  border: 4px solid black;
   transition: transform .5s ease-in-out;
 }
 
@@ -59,10 +58,11 @@ body {
 .equal-and-circle-container{
   display: flex;
   justify-content: space-around;
-  margin-top: 18em;
+  margin: 18em 0 1.5em;
   width: 250px;
   height: 80px;
 }
+
 .equal-sign{
   display: flex;
   flex-direction: column;
@@ -75,19 +75,35 @@ body {
   height: 16px;
   width: 100px;
   background-color: rgb(0, 0, 255);
-  border: 4px solid black;
 }
 
 .circle {
   height: 100%;
   width: 90px;
   background-color: rgb(0, 128, 128);
-  border: 4px solid black;
   border-radius: 50%;
 }
 
+.rectangle {
+  margin-left: 50px;
+  height: 350px;
+  width: 160px;
+  background-color: rgb(0, 0, 255);
+}
+
+.text {
+  padding-top: 1em;
+  font-size: 4em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.border {
+  border: 4px solid black;
+}
+
 /* @media (min-width: 583px) {
-  
+
 } */
 
 @media (min-width: 901px) {
